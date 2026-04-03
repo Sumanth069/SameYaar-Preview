@@ -55,5 +55,3 @@ SameYaar is built with an industry-standard technical ecosystem:
 
 > [!NOTE]
 > *This repository is a portfolio-exclusive "Marketing Preview." Access to the full source code is restricted to the development team to protect the internal matching engine and intellectual property.*
-
-[![Portfolio](https://img.shields.io/badge/Built_by-Antigravity-pink?style=flat-square)](https://github.com/Sumanth069/SameYaar)
