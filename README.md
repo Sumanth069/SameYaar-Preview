@@ -53,6 +53,11 @@ A stunning, gamified physics simulator built directly into the core landing page
 ### 6. 🏆 Legends Leaderboard
 *   A gamified campus leaderboard ranks the most active "Haters" and complainers on campus, keeping the community vibrant and highly engaged.
 
+### 7. 🛡️ Administrative Command Centre (/admin)
+*   **Dual-Layer Security Gate**: Accessible strictly to authorized admin credentials (specifically gated for `kpsumanth212@gmail.com` via client-side UI blocks and server-side Clerk checks), instantly blocking all other visitors.
+*   **Live Analytics & Metrics Dashboard**: Visual telemetry reporting total students, active confessions count, locations scanned, and vibes/matches formed.
+*   **Student Profile & Gossip Moderation**: Direct database command over registered student records, active confessions, and radar vents, utilizing cascading de-link query updates to prevent database collisions.
+
 ---
 
 ## ⚡ Engineering Excellence: Under the Hood
