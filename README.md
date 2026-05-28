@@ -33,7 +33,7 @@ A stunning, gamified physics simulator built directly into the core landing page
 *   **Reactive Pulse Core**: A beautifully styled neon radioactive reactor. Tapping or clicking it triggers a dynamic shockwave explosion of floating college-themed pet peeves (*"Mess Food 🤢"*, *"75% Attendance 💀"*, *"Dry DMs 📱"*).
 *   **Helix Bubble Drift**: Funny Ick text capsules float upward gently like helium soap-bubbles, sway dynamically, and fade organically, representing the campus's collective frustrations.
 *   **Web Audio Chirp Synthesizer**: Pop interactions trigger sound effects synthesized mathematically in-memory using the browser's native `AudioContext`. With **zero external static files to load**, it achieves a **0% asset-loading failure rate**.
-*   **Rank Progression Telemetry**: A cockpit dashboard tracks popped Icks in real time, incrementing student rankings from *Annoyed Kid* to *Ultimate Spite Legend 🔥*.
+*   **Rolling 24-Hour Telemetry**: A cockpit dashboard tracks local user detonations on a rolling 24-hour timestamp check synced with simulated live campus-wide activity rates, incrementing student rankings from *Annoyed Kid* to *Ultimate Spite Legend 🔥*.
 
 ### 2. 🎴 Responsive Swipe Matchmaking
 *   **Swipe over Icks**: A smooth card-swiping interface built with custom spring physics. Skip standard bios; swipe on campus-specific pet peeves and study habits.
