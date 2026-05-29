@@ -53,6 +53,19 @@ A stunning, gamified physics simulator built directly into the core landing page
 ### 6. 🏆 Legends Leaderboard
 *   A gamified campus leaderboard ranks the most active "Haters" and complainers on campus, keeping the community vibrant and highly engaged.
 
+### 7. 🛡️ Administrative Command Centre (/admin)
+*   **Dual-Layer Security Gate**: Accessible strictly to authorized admin credentials (specifically gated for `kpsumanth212@gmail.com` via client-side UI blocks and server-side Clerk checks), instantly blocking all other visitors.
+*   **Live Analytics & Metrics Dashboard**: Visual telemetry reporting total students, active confessions count, locations scanned, and vibes/matches formed.
+*   **Student Profile & Gossip Moderation**: Direct database command over registered student records, active confessions, and radar vents, utilizing cascading de-link query updates to prevent database collisions.
+
+### 8. 🎮 Premium Campus Bunk Arcade
+Skip study session doom and play addictive university-themed games on your mobile:
+*   **Proxy Dodger 🏃**: A 60FPS physics-locked side-scrolling runner where you dodge surprise checks (HOD warnings, dynamic tests, canteens). Features weekly calibrated scaling difficulty (e.g. *Monday Misery* vs *Friday Chill*) and a lowered debarment threshold of `400+` points to earn Spite Coins.
+*   **Campus Zip 🧠**: A LinkedIn-style Daily spatial logic puzzle where students draw a single, continuous 16-cell path visiting campus landmarks sequentially. Uses a date-seeded deterministic LCG seed generator + Hamiltonian DFS pathfinder to construct a 100% unique, 100% solvable riddle every single day.
+*   **Persistent Daily Stopwatch Timer ⚡**: True high-stakes challenge—once the timer starts on the first connection, it cannot be reset by resetting paths or failing sequential rules. It only stops on successful completion of the grid.
+*   **Admin-Gated Speedrun Replaying 🔄**: Normal users get exactly one official attempt per day to protect streak integrity, while administrators enjoy advanced speedrun replaying and solved status resetting toolbars.
+*   **Lobby Exit Routing 📲**: Direct router-push exit button triggers bypass WebView touch prefetching delays for 100% responsive navigation on mobile screens.
+
 ---
 
 ## ⚡ Engineering Excellence: Under the Hood
@@ -66,6 +79,8 @@ SameYaar is built from the ground up for 60FPS visual performance, zero latency,
 *   **🛡️ Multi-Tier Crash Prevention**:
     *   **Layout-Level Error Boundary**: A custom, premium layout-wrapped `ErrorBoundary` isolates and catches component crashes on load, presenting elegant, automated recovery options.
     *   **Gated SSR Hydration**: Gated execution structures safeguard all browser-specific Web APIs (`window`, `localStorage`, `AudioContext`) from server pre-rendering collisions, eliminating hydration mismatches entirely.
+*   **🧠 Date-Seeded Hamiltonian DFS Pathfinding**: Procedurally generates a unique, 100% solvable daily layout path on a 4x4 grid in microseconds using deterministic mathematical LCG seeds, ensuring zero database migration overhead for daily puzzles.
+*   **🔄 Stable Memoized Component Rendering**: Utilizes advanced memoized React hooks (`useMemo`) to stabilize state references and resolve high-frequency (10Hz) stopwatch re-render collisions, resulting in 100% stable touch progress across mobile viewports.
 
 ---
 
